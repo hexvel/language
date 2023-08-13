@@ -17,6 +17,8 @@ export const tokenTypesList = {
   LOG: new TokenType("LOG", "КОНСОЛЬ"),
   PLUS: new TokenType("PLUS", "ПЛЮС"),
   MINUS: new TokenType("MINUS", "МИНУС"),
+  MULTIPLICATION: new TokenType("MULTIPLICATION", "УМНОЖИТЬ"),
+  DIVISION: new TokenType("DIVISIOn", "ПОДЕЛИТЬ"),
   LPAR: new TokenType("LPAR", "\\("),
   RPAR: new TokenType("RPAR", "\\)"),
 };
